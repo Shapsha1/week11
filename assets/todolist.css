@@ -1,0 +1,35 @@
+.headline {
+    text-align: center;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#task_input {
+    width: 40%;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#add_button {
+    margin-top: 16px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 4px;
+    background-color: #4eab30a6;
+}
+#add_button:active {
+    background-color: #4eab30;
+}
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.done {
+    text-decoration: line-through;
+    list-style-type: circle;
+}
